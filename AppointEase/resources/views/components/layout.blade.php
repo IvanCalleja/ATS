@@ -43,7 +43,7 @@
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
       </form>
     </div>
-    @include('partials.navbar');
+    @include('partials.navbar')
   </header>
 
   <main id="main" class="main">
