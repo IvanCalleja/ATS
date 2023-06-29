@@ -30,6 +30,9 @@ Route::get('/calendar', function () {
     return view('calendar');
 });
 
+Route::get('/staffs', function () {
+    return view('staffs');
+});
 
 Auth::routes();
 
