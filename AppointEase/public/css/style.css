@@ -15,7 +15,10 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #f6f9ff;
+  background-image: url("/img/cspc-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
   color: #444444;
 }
 
