@@ -30,10 +30,22 @@ Route::get('/calendar', function () {
     return view('calendar');
 });
 
+<<<<<<< Updated upstream
 Route::get('/staffs', function () {
     return view('staffs');
 });
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Route::get('/clients', function () {
+    return view('clients');
+=======
+Route::get('/staffs', function () {
+    return view('staffs');
+>>>>>>> d1e025c3058591dd1925872154e5849e4d921880
+=======
+>>>>>>> Stashed changes
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
