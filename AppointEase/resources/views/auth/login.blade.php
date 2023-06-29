@@ -81,32 +81,50 @@
                                     <p class="text-center small">CSPC Registrar</p>
                                     <hr>
                                 </div>
-                                <form class="row g-3" novalidate>
-                                    <div class="col-12">
-                                        <label for="email" class="form-label">Email</label>
-                                        <div class="input-group">
-                                            <input type="text" name="username" class="form-control" id="email"
-                                                required autocomplete="off">
+                                    <form method="POST" action="{{ route('login') }}" class="row g-3">
+                                        @csrf
+                                        <div class="col-12">
+                                            <label for="email" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <input type="text" name="email" class="form-control" id="email"
+                                                    required autocomplete="off" @error('email') is-invalid @enderror"
+                                                    value="{{ old('email') }}">
+                                                @error('email')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="password" class="form-label">Password</label>
-                                        <input type="password" name="password" class="form-control" id="password"
-                                            required>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100" type="submit">Login</button>
-                                    </div>
-                                    <hr class="mb-2">
-                                    <span class="d-flex justify-content-center">Login as</span>
-                                    <div class="col-12">
-                                        <a href="#" class="btn btn-outline-primary google-sign-in">
-                                            <img src="{{ asset('img/google-icon.png') }}" alt="Google Icon"
-                                                class="google-icon me-2">
-                                            CSPC Mail
-                                        </a>
-                                    </div>
-                                </form>
+                                        <div class="col-12">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" name="password" class="form-control" id="password"
+                                                required @error('password') is-invalid @enderror>
+
+                                            @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100" type="submit">Login</button>
+                                            @if (Route::has('password.request'))
+                                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                                    {{ __('Forgot Your Password?') }}
+                                                </a>
+                                            @endif
+                                        </div>
+                                        <hr class="mb-2">
+                                        <span class="d-flex justify-content-center">Login as</span>
+                                        <div class="col-12">
+                                            <a href="#" class="btn btn-outline-primary google-sign-in">
+                                                <img src="{{ asset('img/google-icon.png') }}" alt="Google Icon"
+                                                    class="google-icon me-2">
+                                                CSPC Mail
+                                            </a>
+                                        </div>
+                                    </form>
                             </div>
                         </div>
                     </div>

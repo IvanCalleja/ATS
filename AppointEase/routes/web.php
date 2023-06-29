@@ -13,12 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::middleware('guest')->get('/', function () {
+    return view('auth.login');
 });
 
-Route::get('/login', function () {
-    return view('login');
+
+Route::post('/login', function () {
+    return view('auth.login');
 });
 
 Route::get('/admin', function () {
@@ -29,3 +30,7 @@ Route::get('/calendar', function () {
     return view('calendar');
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');

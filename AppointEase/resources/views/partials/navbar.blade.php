@@ -36,7 +36,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                 <li class="dropdown-header">
-                    <h6>Zarina Kate Lagatic</h6>
+                    <h6>{{ Auth::user()->name }}</h6>
                 </li>
                 <li>
                     <hr class="dropdown-divider">
@@ -51,9 +51,12 @@
                     <hr class="dropdown-divider">
                 </li>
                 <li>
-                    <a class="dropdown-item d-flex align-items-center" href="#">
-                        <i class="bi bi-box-arrow-right"></i>
-                        <span>Sign Out</span>
+                    <a class="dropdown-item d-flex align-items-center" href="{{ route('logout') }}" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">
+                              <span>Sign Out</span>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
                     </a>
                 </li>
             </ul>
