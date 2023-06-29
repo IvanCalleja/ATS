@@ -25,4 +25,7 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
+Route::get('/calendar', function () {
+    return view('calendar');
+});
 
