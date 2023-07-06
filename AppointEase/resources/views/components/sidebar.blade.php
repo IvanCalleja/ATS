@@ -35,4 +35,12 @@
       </li><!-- End F.A.Q Page Nav -->
     </ul>
 
+    <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="/faq">
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+    </ul>
+
+
   </aside><!-- End Sidebar-->
