@@ -889,68 +889,59 @@
             <div class="card-body">
               <h5 class="card-title">Recent Activity <span>| Today</span></h5>
 
-              <div class="activity">
+                <div class="activity">
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">August 21</div>
+                  <div class="activite-label">32 min</div>
                   <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                   <div class="activity-content">
-                    <a href="#" class="fw-bold text-dark">Ninoy Aquino Day</a>
+                    Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">August 28</div>
+                  <div class="activite-label">56 min</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
-                    National Heroes Day
+                    Voluptatem blanditiis blanditiis eveniet
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">November 1</div>
+                  <div class="activite-label">2 hrs</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
-                    All Saint's Day
+                    Voluptates corrupti molestias voluptatem
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">November 30</div>
+                  <div class="activite-label">1 day</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
-                     <a href="#" class="fw-bold text-dark">Bonifacio Day</a>
+                    Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">December 25</div>
+                  <div class="activite-label">2 days</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
-                    Christmas Day
+                    Est sit eum reiciendis exercitationem
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">December 30</div>
+                  <div class="activite-label">4 weeks</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
                   <div class="activity-content">
-                    Rizal's Day
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">January 1</div>
-                  <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-                  <div class="activity-content">
-                    New Year
+                    Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
                   </div>
                 </div><!-- End activity item-->
 
               </div>
 
-            </div>
-          </div><!-- End Recent Activity -->
+              
 
           <!-- Budget Report -->
           <div class="card">
