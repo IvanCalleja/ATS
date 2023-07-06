@@ -45,6 +45,10 @@ Route::get('/profile', function () {
 Route::get('/client', function () {
         return view('client');
 });
+
+Route::get('/staff', function () {
+    return view('staff');
+});
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
