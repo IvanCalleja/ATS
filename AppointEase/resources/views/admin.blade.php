@@ -892,50 +892,58 @@
               <div class="activity">
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">32 min</div>
+                  <div class="activite-label">August 21</div>
                   <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                   <div class="activity-content">
-                    Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
+                    <a href="#" class="fw-bold text-dark">Ninoy Aquino Day</a>
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">56 min</div>
+                  <div class="activite-label">August 28</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
-                    Voluptatem blanditiis blanditiis eveniet
+                    National Heroes Day
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">2 hrs</div>
+                  <div class="activite-label">November 1</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
-                    Voluptates corrupti molestias voluptatem
+                    All Saint's Day
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">1 day</div>
+                  <div class="activite-label">November 30</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
-                    Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+                     <a href="#" class="fw-bold text-dark">Bonifacio Day</a>
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">2 days</div>
+                  <div class="activite-label">December 25</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
-                    Est sit eum reiciendis exercitationem
+                    Christmas Day
                   </div>
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">4 weeks</div>
+                  <div class="activite-label">December 30</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
                   <div class="activity-content">
-                    Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
+                    Rizal's Day
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">January 1</div>
+                  <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
+                  <div class="activity-content">
+                    New Year
                   </div>
                 </div><!-- End activity item-->
 
