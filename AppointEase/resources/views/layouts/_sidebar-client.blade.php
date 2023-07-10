@@ -3,7 +3,7 @@
   <ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
-      <a class="nav-link " href="index.html">
+      <a class="nav-link " href="/">
         <span>Dashboard</span>
       </a>
     </li><!-- End Dashboard Nav -->
