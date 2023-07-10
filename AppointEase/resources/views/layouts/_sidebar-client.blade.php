@@ -27,7 +27,7 @@
     </li><!-- End Calendar Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-register.html">
+      <a class="nav-link collapsed" href="transaction_history">
         <span>Transaction History</span>
       </a>
     </li><!-- End Transaction History Page Nav -->

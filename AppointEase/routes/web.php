@@ -65,3 +65,7 @@ Route::get('/appointment', function () {
 Route::get('/FAQ', function () {
     return view('FAQ');
 });
+
+Route::get('/transaction_history', function () {
+    return view('transaction_history');
+});
