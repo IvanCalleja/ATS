@@ -42,9 +42,6 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
-Route::get('/client', function () {
-        return view('client');
-});
 
 Route::get('/staff', function () {
     return view('staff');
@@ -56,3 +53,15 @@ Route::get('/faq', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+
+Route::get('/client', function () {
+    return view('client');
+});
+
+Route::get('/appointment', function () {
+    return view('appointment');
+});
+
+Route::get('/FAQ', function () {
+    return view('FAQ');
+});
