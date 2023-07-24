@@ -1,5 +1,5 @@
 <x-layout>
-    @include('layouts._sidebar-client')
+    {{-- @include('layouts._sidebar-client') --}}
 <div class="card">
             <div class="card-body">
               <h5 class="card-title">Transaction History</h5>
@@ -33,8 +33,7 @@
                     <td>Receipt and Assessment</td>
                     <td>To Claim</td>
                   </tr>
-                  
-
+                </tbody>
             </div>
           </div>
 </x-layout>

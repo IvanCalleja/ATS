@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('guest')->get('/', function () {
+Route::get('/', function () {
     return view('auth.login');
 });
 
@@ -23,19 +23,15 @@ Route::post('/login', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin');
+    return view('admin.index');
 });
 
-Route::get('/calendar', function () {
-    return view('calendar');
-});
-
-Route::get('/staffs', function () {
-    return view('staffs');
+Route::get('/staffs1', function () {
+    return view('staffs.index');
 });
 
 Route::get('/clients', function () {
-    return view('clients');
+    return view('admin.clients.index');
 });
 
 Route::get('/profile', function () {
@@ -43,8 +39,12 @@ Route::get('/profile', function () {
 });
 
 
-Route::get('/staff', function () {
-    return view('staff');
+Route::get('/staffs', function () {
+    return view('admin.staffs.index');
+});
+
+Route::get('/staffs/clients', function () {
+    return view('staffs.clients.index');
 });
 
 Route::get('/faq', function () {
@@ -54,8 +54,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 
-Route::get('/client', function () {
-    return view('client');
+Route::get('/client1', function () {
+    return view('clients.index');
 });
 
 Route::get('/appointment', function () {

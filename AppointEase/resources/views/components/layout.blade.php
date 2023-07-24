@@ -35,6 +35,7 @@
             margin: 40px auto;
             color: white;
         }
+        
     </style>
 </head>
 

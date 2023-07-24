@@ -1,10 +1,8 @@
- <x-layout>
+<x-layout>
     <x-sidebar/>
     <div class="card">
         <div class="card-body">
           <h5 class="card-title">Staff's List</h5>
-    
-          <!-- Table with hoverable rows -->
           <table class="table table-hover">
             <thead>
               <tr>
@@ -38,8 +36,6 @@
               </tr>
             </tbody>
           </table>
-          <!-- End Table with hoverable rows -->
-    
         </div>
       </div>
 </x-layout>
