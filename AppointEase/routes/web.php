@@ -47,8 +47,8 @@ Route::get('/staffs/clients', function () {
     return view('staffs.clients.index');
 });
 
-Route::get('/faq', function () {
-    return view('faq');
+Route::get('/admin/rprts', function () {
+    return view('admin.rprts.index');
 });
 Auth::routes();
 
