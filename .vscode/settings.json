@@ -1,7 +1,18 @@
 {
     "cSpell.words": [
+        "autoload",
+        "autoloader",
         "cspc",
+        "dont",
+        "fakerphp",
+        "guzzlehttp",
         "Laravel",
-        "mailgun"
+        "mailgun",
+        "nunomaduro",
+        "pestphp",
+        "phpunit",
+        "rprts",
+        "spatie",
+        "srvc"
     ]
 }
