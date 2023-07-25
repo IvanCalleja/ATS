@@ -19,7 +19,7 @@
             </a>
         </li><!-- End F.A.Q Page Nav -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#">
+            <a class="nav-link collapsed" href="/admin/rprts">
                 <span>Reports</span>
             </a>
         </li><!-- End F.A.Q Page Nav -->

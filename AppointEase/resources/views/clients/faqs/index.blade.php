@@ -1,13 +1,13 @@
 <x-layout>
-    {{-- @include('layouts._sidebar-client') --}}
-    <style>
-      .centered {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-    </style>
+  @include('clients._sidebar')
+  <style>
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
   
         <!-- F.A.Q Group 1 -->
         <div class="centered">

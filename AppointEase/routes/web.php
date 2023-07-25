@@ -35,8 +35,8 @@ Route::get('/clients', function () {
     return view('admin.clients.index');
 });
 
-Route::get('/profile', function () {
-    return view('profile');
+Route::get('/admin/profiles', function () {
+    return view('admin.profiles.index');
 });
 
 
@@ -48,8 +48,8 @@ Route::get('/staffs/clients', function () {
     return view('staffs.clients.index');
 });
 
-Route::get('/faq', function () {
-    return view('faq');
+Route::get('/admin/rprts', function () {
+    return view('admin.rprts.index');
 });
 Auth::routes();
 
@@ -59,16 +59,20 @@ Route::get('/client1', function () {
     return view('clients.index');
 });
 
+Route::get('/client1/srvc', function () {
+    return view('clients.srvc.index');
+});
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
 
-Route::get('/FAQ', function () {
-    return view('FAQ');
+Route::get('/client1/faqs', function () {
+    return view('clients.faqs.index');
 });
 
-Route::get('/transaction_history', function () {
-    return view('transaction_history');
+Route::get('/client1/transaction_history', function () {
+    return view('clients.transaction_history.index');
 });
 
 Route::get('auth/google', [App\Http\Controllers\SocialAuthController::class, 'redirectToProvider'])->name('google-auth');
