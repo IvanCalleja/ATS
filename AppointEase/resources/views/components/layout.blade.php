@@ -27,7 +27,7 @@
 
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
 
     <style>
         #calendar {
@@ -71,7 +71,7 @@
     <script src="{{ asset('vendor/tinymce/tinymce.min.js') }}"></script>
     <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
 
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js')}}"></script>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
