@@ -118,7 +118,7 @@
                                         <hr class="mb-2">
                                         <span class="d-flex justify-content-center">Login as</span>
                                         <div class="col-12">
-                                            <a href="#" class="btn btn-outline-primary google-sign-in">
+                                            <a href="{{ route ('google-auth')}}" class="btn btn-outline-primary google-sign-in">
                                                 <img src="{{ asset('img/google-icon.png') }}" alt="Google Icon"
                                                     class="google-icon me-2">
                                                 CSPC Mail

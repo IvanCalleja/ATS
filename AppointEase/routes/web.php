@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -69,3 +70,9 @@ Route::get('/FAQ', function () {
 Route::get('/transaction_history', function () {
     return view('transaction_history');
 });
+
+Route::get('auth/google', [App\Http\Controllers\SocialAuthController::class, 'redirectToProvider'])->name('google-auth');
+Route::get('auth/google/call-back', [SocialAuthController::class, 'handleProviderCallback']);
+
+
+ 
