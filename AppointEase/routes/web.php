@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SocialAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -75,7 +76,7 @@ Route::get('/client1/transaction_history', function () {
     return view('clients.transaction_history.index');
 });
 
-Route::get('auth/google', [App\Http\Controllers\SocialAuthController::class, 'redirectToProvider'])->name('google-auth');
-Route::get('auth/google/callback', [App\Http\Controllers\SocialAuthController::class, 'handleProviderCallback']);
+Route::get('auth/google', [SocialAuthController::class, 'redirectToProvider'])->name('google-auth');
+Route::get('auth/google/callback', [SocialAuthController::class, 'handleProviderCallback']);
 
 
