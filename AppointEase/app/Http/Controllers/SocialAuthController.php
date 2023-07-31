@@ -15,7 +15,6 @@ class SocialAuthController extends Controller
     {
         return Socialite::driver('google')->redirect();
     }
-
     public function handleProviderCallback()
     {
         try {
@@ -28,6 +27,7 @@ class SocialAuthController extends Controller
                     'name' => $google_user->getName(),
                     'email' => $google_user->getEmail(),
                     'google_id' => $google_user->getId(),
+                    'role_id' => 3, // Set the appropriate role ID (e.g., 1 for Admin) based on your role management.
                 ]);
 
                 Auth::login($new_user);
@@ -39,9 +39,9 @@ class SocialAuthController extends Controller
                 return redirect()->intended('client1');
             }
         } catch (\Throwable $th) {
-            dd('Something went wrong!' . $th->getMessage());
+            //dd('Something went wrong!' . $th->getMessage());
         }
     }
 
-    // ...
+    // ... Remaining code ...
 }

@@ -17,20 +17,20 @@ use App\Http\Controllers\SocialAuthController;
 
 Route::get('/', function () {
     return view('auth.login');
-});
+})->middleware('auth');
 
 
-Route::post('/login', function () {
-    return view('auth.login');
-});
+// Route::post('/login', function () {
+//     return view('auth.login');
+// })->middleware('auth');
 
 Route::get('/admin', function () {
     return view('admin.index');
-});
+})->middleware('admin');
 
 Route::get('/staffs1', function () {
     return view('staffs.index');
-});
+})->middleware('staff');
 
 Route::get('/clients', function () {
     return view('admin.clients.index');
@@ -38,7 +38,7 @@ Route::get('/clients', function () {
 
 Route::get('/admin/profiles', function () {
     return view('admin.profiles.index');
-});
+})->middleware('admin');
 
 
 Route::get('/staffs', function () {
@@ -58,7 +58,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/client1', function () {
     return view('clients.index');
-});
+})->name('client1');
 
 Route::get('/client1/srvc', function () {
     return view('clients.srvc.index');

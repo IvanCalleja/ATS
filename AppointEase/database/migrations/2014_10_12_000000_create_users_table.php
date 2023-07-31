@@ -19,6 +19,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->string('google_id')->nullable();
+            $table->foreignId('role_id')->constrained('roles')->default(3); // Assuming 'student' role has id 1
             $table->rememberToken();
             $table->timestamps();
         });
