@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('auth.login');
 })->middleware('auth');
 
+Route::get('/landing', function () {
+    return view('landing');
+});
 
 // Route::post('/login', function () {
 //     return view('auth.login');
