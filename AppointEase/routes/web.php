@@ -14,14 +14,14 @@ use App\Http\Controllers\SocialAuthController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
-    return view('auth.login');
-})->middleware('auth');
-
-Route::get('/landing', function () {
     return view('landing');
 });
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+
+Route::get('/login', function () {
+    return view('auth.login');
+})->middleware('auth');
 
 // Route::post('/login', function () {
 //     return view('auth.login');

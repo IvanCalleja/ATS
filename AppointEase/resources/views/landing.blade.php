@@ -54,7 +54,7 @@
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services" style="margin-right: 10px;">Services</a></li>
           </ul>
-          <button class="login-button">Login</button>
+          <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
           <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       
