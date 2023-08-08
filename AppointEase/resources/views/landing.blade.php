@@ -45,7 +45,12 @@
       <div id="logo">
         <!--a href="index.html"><img src="assets/img/logo.png" alt=""></a> -->
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h1><a href="index.html">AppointEase</a></h1>
+        <h1>
+          <a href="#" class="logo d-flex align-items-center">
+            <img src="{{ asset('img/cspc-logo.png') }}" alt="CSPC" class="smaller-logo">
+            <span class="d-none d-lg-block" style="margin-left: 10px;">Appoint<span style="color: rgb(32, 2, 183)">Ease</span></span>
+          </a>
+        </h1>        
       </div>
       
       <nav id="navbar" class="navbar">

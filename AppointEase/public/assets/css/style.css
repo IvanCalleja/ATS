@@ -1146,6 +1146,11 @@ section {
   color: #fff;
 }
 
+.smaller-logo {
+  width: 75px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
