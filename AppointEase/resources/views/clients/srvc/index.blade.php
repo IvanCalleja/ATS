@@ -8,16 +8,33 @@
       align-items: center;
       height: 100vh;
     }
+
+    /* Custom styling for accordion buttons */
+    .accordion-button {
+      color: #000; /* Set the default text color */
+      background-color: #fff; /* Set the default background color */
+    }
+
+    .accordion-button:hover {
+      color: #fff; /* Change the text color on hover */
+      background-color: #007bff; /* Change the background color on hover to blue */
+    }
+
+    /* Custom styling for SERVICES title */
+    .card-title.services {
+      font-size: 24px; /* Set the font size to 24px */
+      font-weight: bold; /* Set the font weight to bold */
+    }
   </style>
 
-    <section class="section d-flex justify-content-center">
+  <section class="section d-flex justify-content-center">
 
-        <div class="row">
-          <div class="col-lg-12">
-  
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">SERVICES</h5>
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title services">Services</h5>
   
                 <!-- Default Accordion -->
                 <div class="accordion" id="accordionExample">

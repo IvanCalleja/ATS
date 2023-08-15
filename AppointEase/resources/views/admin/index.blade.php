@@ -47,7 +47,7 @@
                         <h5 class="card-title text-white">Weekly Total Appointment</span></h5>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h6>$3,264</h6>
+                                <h6>3,264</h6>
                                 <span class="text-success small pt-1 fw-bold">8%</span>
                                 <span class="text-white">increase</span>
                             </div>

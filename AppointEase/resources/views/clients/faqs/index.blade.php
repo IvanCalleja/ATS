@@ -5,28 +5,45 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: calc(100vh - 80px); /* Adjusted min-height to account for header */
+      padding: 20px; /* Added padding for better spacing */
+    }
+    .card {
+      width: 100%;
+      max-width: 600px; /* Set a maximum width for the card */
+      margin: 0 auto; /* Center the card horizontally */
+      overflow-y: auto;
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .accordion-button {
+      transition: background-color 0.3s ease-in-out;
+    }
+    .accordion-button:hover {
+      background-color: #007bff;
     }
   </style>
   
-        <!-- F.A.Q Group 1 -->
-        <div class="centered">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Frequently Asked Questions</h5>
+  <!-- F.A.Q Group 1 -->
+  <div class="centered">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Frequently Asked Questions</h5>
   
-            <div class="accordion accordion-flush" id="faq-group-1">
+        <div class="accordion accordion-flush" id="faq-group-1">
   
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" data-bs-target="#faqsOne-1" type="button" data-bs-toggle="collapse">
-                    Debitis adipisci eius?
-                  </button>
-                </h2>
-                <div id="faqsOne-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
-                  <div class="accordion-body">
-                    Ut quasi odit odio totam accusamus vero eius. Nostrum asperiores voluptatem eos nulla ab dolores est asperiores iure. Quo est quis praesentium aut maiores. Corrupti sed aut expedita fugit vero dolorem. Nemo rerum sapiente. A quaerat dignissimos.
-                  </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" data-bs-target="#faqsOne-1" type="button" data-bs-toggle="collapse">
+                Debitis adipisci eius?
+              </button>
+            </h2>
+            <div id="faqsOne-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+              <div class="accordion-body">
+                Ut quasi odit odio totam accusamus vero eius. Nostrum asperiores voluptatem eos nulla ab dolores est asperiores iure. Quo est quis praesentium aut maiores. Corrupti sed aut expedita fugit vero dolorem. Nemo rerum sapiente. A quaerat dignissimos.
+              </div>
                 </div>
               </div>
   

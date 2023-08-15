@@ -83,39 +83,21 @@
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
-        <div class="row about-container">
-
+        <div class="row about-container justify-content-center">
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Few Words About Us</h2>
-            <p>
-              We are Team Black Clover!
-            </p>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-briefcase"></i></div>
-              <h4 class="title"><a href="">Zarina Kate D. Lagatic</a></h4>
-              <p class="description">Project Head</p>
+            <div class="red-card">
+              <h2 class="title">About the System</h2>
+              <p>
+                Replace this text with information about the system.
+              </p>
             </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="">Ivan Jefferson O. Calleja</a></h4>
-              <p class="description">Developer</p>
-            </div>
-
-           <!--  <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-binoculars"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div> -->
-
           </div>
-
           <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
+    
+    <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services">

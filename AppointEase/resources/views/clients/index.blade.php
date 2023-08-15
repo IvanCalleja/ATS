@@ -7,6 +7,12 @@
       align-items: center;
       height: 100vh;
     }
+    /* Additional responsive styling */
+    @media (max-width: 768px) {
+      .col-lg-6 {
+        max-width: 100%;
+      }
+    }
   </style>
 
   <section class="section">
@@ -14,15 +20,12 @@
       <div class="col-lg-6 mx-auto">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Form</h5>
-            
-            <!-- Rest of the form code -->
-            <h5 class="card-title">Form </h5>
+            <h4 class="card-title" style="font-size: 24px; font-weight: bold;">Appointment Form</h4>
 
-            <!-- General Form Elements -->
+            <!-- Rest of the form code -->
             <form>
               <div class="row mb-3">
-                <label for="inputText" class="col-sm-2 col-form-label">Text</label>
+                <label for="inputText" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
                   <input type="text" class="form-control">
                 </div>
@@ -150,14 +153,13 @@
                   </select>
                 </div>
               </div>
-          
+
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Submit Button</label>
                 <div class="col-sm-10">
                   <button type="submit" class="btn btn-primary">Submit Form</button>
                 </div>
               </div>
-          
             </form><!-- End General Form Elements -->
           
           </div>
