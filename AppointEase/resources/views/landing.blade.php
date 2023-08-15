@@ -71,7 +71,7 @@
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Welcome to AppointEase</h1>
       <h2 style="font-size: 20px; text-align: center;">
-        A system designed to simplify the process, reduce waiting time for clients and increase user satisfaction and improve efficiency at the registrar's office.
+        Empowering Efficiency Through Precise Appointments
       </h2>
       <a href="#about" class="btn-get-started">Get Started</a>
     </div>
@@ -83,12 +83,13 @@
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
-        <div class="row about-container justify-content-center">
+        <div class="row about-container justify-content-center align-items-center">
           <div class="col-lg-6 content order-lg-1 order-2">
             <div class="red-card">
-              <h2 class="title">About the System</h2>
+              <h2 class="title">About AppointEase</h2>
               <p>
-                Replace this text with information about the system.
+                A system designed to simplify the process, reduce waiting time for clients and
+                increase user satisfaction and improve efficiency at the registrar's office.
               </p>
             </div>
           </div>
@@ -104,7 +105,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Services</h3>
-          <p class="section-description">Here are some of the Services offered:</p>
+          <p class="section-description">Here are some of the services offered:</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
@@ -146,7 +147,7 @@
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-calendar4-week"></i></a></div>
-              <h4 class="title"><a href="">Certification of Grades</a></h4>
+              <h4 class="title"><a href="">Others</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>

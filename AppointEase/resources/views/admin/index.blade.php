@@ -30,7 +30,7 @@
             <div class="col-xxl-4 col-md-6">
                 <div class="card glass-card">
                     <div class="card-body">
-                        <h5 class="card-title text-white">Today's Total Appointment</h5>
+                        <h5 class="card-title text-white"><strong>Today's Total Appointment</strong></span></h5>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
                                 <h6>145</h6>
@@ -44,7 +44,7 @@
             <div class="col-xxl-4 col-md-6">
                 <div class="card glass-card">
                     <div class="card-body">
-                        <h5 class="card-title text-white">Weekly Total Appointment</span></h5>
+                        <h5 class="card-title text-white"><strong>Weekly Total Appointment</strong></span></h5>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
                                 <h6>3,264</h6>
@@ -58,7 +58,7 @@
             <div class="col-xxl-4 col-xl-12">
                 <div class="card glass-card">
                     <div class="card-body">
-                        <h5 class="card-title text-white">Total Number of Clients</span></h5>
+                        <h5 class="card-title text-white"><strong>Total Number of Clients</strong></span></h5>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
                                 <h6>1244</h6>
