@@ -100,6 +100,15 @@
     
     <!-- End About Section -->
 
+    <div class="l-container s-special-box row section-padding no-gutters justify-content-center align-items-center text-center" id="yui_3_17_2_1_1692281177234_22">
+
+      <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto text-center" id="yui_3_17_2_1_1692281177234_26">
+        <h3 class="c-section-desc-heading" id="yui_3_17_2_1_1692281177234_27">Managers and Developers</h3>
+        <div class="c-section-desc" id="yui_3_17_2_1_1692281177234_25"><p dir="ltr" style="text-align: left;" id="yui_3_17_2_1_1692281177234_24">AppointEase is maintained by the Team Black Clover and the Student's Registar and Records Office.</p></div>
+      </div>
+
+    </div>
+
     <!-- ======= Services Section ======= -->
     <section id="services">
       <div class="container" data-aos="fade-up">
@@ -112,21 +121,21 @@
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-briefcase"></i></a></div>
               <h4 class="title"><a href="">Offcial Transcript of Records</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Official document that provides a detailed record of a student's academic performance and achievements at an educational institution</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-card-checklist"></i></a></div>
               <h4 class="title"><a href="">Diploma Renewal</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <p class="description">New or updated copy of an academic diploma or degree certificate</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-bar-chart"></i></a></div>
               <h4 class="title"><a href="">Honorable Dismissal</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p class="description">Formal process by which a student voluntarily withdraws from an institution in good standing and with a positive academic record</p>
             </div>
           </div>
 
@@ -134,14 +143,14 @@
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-binoculars"></i></a></div>
               <h4 class="title"><a href="">Authentication</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p class="description">Verifying the genuineness, accuracy, and legitimacy of a piece of information, a document, or the identity of an individual or entity</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-brightness-high"></i></a></div>
               <h4 class="title"><a href="">Certification, Authentication & Verification</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">Certification sets standards, Authentication confirms identity, and Verification validates accuracy.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">

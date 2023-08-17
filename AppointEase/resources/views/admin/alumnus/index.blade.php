@@ -3,7 +3,21 @@
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title" style="font-size: 24px; font-weight: bold;">Student's List</h5>
+    <div class="card-body d-flex justify-content-between align-items-end">
+      <div class="mb-3">
+        <h2 class="card-title fw-bold" style="font-size: 24px; font-weight: bold;">Alumnus List</h2> 
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-primary mb-3" type="button" id="addButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Add
+        </button>
+        <div class="dropdown-menu" aria-labelledby="addButton">
+          <a class="dropdown-item" href="#">Admin</a>
+          <a class="dropdown-item" href="#">Staff</a>
+        </div>
+      </div>
+    </div>
+
 
                 <!-- Table with hoverable rows -->
                 <div class="table-responsive">
