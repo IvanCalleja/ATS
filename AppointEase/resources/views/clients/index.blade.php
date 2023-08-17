@@ -27,19 +27,19 @@
               <div class="row mb-3">
                 <label for="inputText" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control">
+                  <input type="text" class="form-control" value="{{ auth()->user()->name }}">
                 </div>
               </div>
               <div class="row mb-3">
                 <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="email" class="form-control">
+                  <input type="email" class="form-control" value="{{ auth()->user()->email }}">
                 </div>
               </div>
               <div class="row mb-3">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <label for="inputStudentNumber" class="col-sm-2 col-form-label">Student Number</label>
                 <div class="col-sm-10">
-                  <input type="password" class="form-control">
+                  <input type="studentnumber" class="form-control">
                 </div>
               </div>
               <div class="row mb-3">

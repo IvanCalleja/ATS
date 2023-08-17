@@ -4,31 +4,31 @@
   
       <li class="nav-item">
         <a class="nav-link " href="/">
-          <span>Dashboard</span>
+          <span style="font-size: 18px;">Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
   
       <li class="nav-item">
-        <a class="nav-link collapsed" href="appointment">
-          <span>Appointment</span>
+        <a class="nav-link collapsed" href="#">
+          <span style="font-size: 18px;">Appointment</span>
         </a>
       </li><!-- End Appointment Page Nav -->
   
       <li class="nav-item">
         <a class="nav-link collapsed" href="/client1/srvc">
-          <span>Services</span>
+          <span style="font-size: 18px;">Services</span>
         </a>
       </li><!-- End Services Page Nav -->
   
       <li class="nav-item">
         <a class="nav-link collapsed" href="/client1/transaction_history">
-          <span>Transaction History</span>
+          <span style="font-size: 18px;">Transaction History</span>
         </a>
       </li><!-- End Transaction History Page Nav -->
   
       <li class="nav-item">
         <a class="nav-link collapsed" href="/client1/faqs">
-          <span>F.A.Q</span>
+          <span style="font-size: 18px;">F.A.Q</span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
   

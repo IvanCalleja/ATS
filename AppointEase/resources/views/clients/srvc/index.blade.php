@@ -11,19 +11,30 @@
 
     /* Custom styling for accordion buttons */
     .accordion-button {
-      color: #000; /* Set the default text color */
-      background-color: #fff; /* Set the default background color */
+      color: #000;
+      background-color: #fff;
     }
 
     .accordion-button:hover {
-      color: #fff; /* Change the text color on hover */
-      background-color: #007bff; /* Change the background color on hover to blue */
+      color: #fff;
+      background-color: #007bff;
     }
 
     /* Custom styling for SERVICES title */
     .card-title.services {
-      font-size: 24px; /* Set the font size to 24px */
-      font-weight: bold; /* Set the font weight to bold */
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Responsive styles for the card */
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+      }
     }
   </style>
 
@@ -34,8 +45,7 @@
 
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title services">Services</h5>
-  
+            <h5 class="card-title services">Services</h5>  
                 <!-- Default Accordion -->
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
