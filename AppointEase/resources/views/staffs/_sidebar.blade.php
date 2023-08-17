@@ -5,12 +5,12 @@
 
       <li class="nav-item">
         <a class="nav-link " href="index.html">
-          <span>Dashboard</span>
+          <span style="font-size: 18px;">Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#">
-          <span>Report</span>
+          <span style="font-size: 18px;">Report</span>
         </a>
       </li><!-- End Report Page Nav -->
 

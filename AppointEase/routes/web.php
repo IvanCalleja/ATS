@@ -81,5 +81,3 @@ Route::get('/client1/transaction_history', function () {
 
 Route::get('auth/google', [SocialAuthController::class, 'redirectToProvider'])->name('google-auth');
 Route::get('auth/google/callback', [SocialAuthController::class, 'handleProviderCallback']);
-
-

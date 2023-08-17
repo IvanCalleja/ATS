@@ -1,41 +1,53 @@
 <x-layout>
-  @include('clients._sidebar')
-  <style>
-      /* Custom styling for card */
-      .card {
-          margin: 20px;
-          padding: 20px;
-          border-radius: 10px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
+    @include('clients._sidebar')
+    <style>
+        /* Custom styling for card */
+        .card {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-      /* Custom styling for table */
-      .table {
-          font-size: 16px;
-      }
+        /* Custom styling for table */
+        .table {
+            font-size: 16px;
+        }
 
-      /* Style for table headers */
-      .table th {
-          font-weight: 600;
-      }
+        /* Style for table headers */
+        .table th {
+            font-weight: 600;
+        }
 
-      /* Style for hoverable rows */
-      .table-hover tbody tr:hover {
-          background-color: #f5f5f5;
-      }
+        /* Style for hoverable rows */
+        .table-hover tbody tr:hover {
+            background-color: #f5f5f5;
+        }
 
-      /* Custom styling for card title */
-      .card-title {
-          font-size: 24px;
-          font-weight: bold;
-      }
-  </style>
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">Transaction History</h5>
-          <div class="table-responsive">
-              <!-- Table with hoverable rows -->
-              <table class="table table-hover">
+        /* Custom styling for card title */
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .card {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .table {
+                font-size: 14px;
+            }
+        }
+    </style>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Transaction History</h5>
+            <div class="table-responsive">
+                <!-- Table with hoverable rows -->
+                <table class="table table-hover">
                   <thead>
                       <tr>
                           <th scope="col">#</th>
