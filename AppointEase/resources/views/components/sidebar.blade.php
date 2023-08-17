@@ -2,9 +2,6 @@
     <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
 
-            <a class="nav-link " href="/admin">
-                <span>Dashboard</span>
-
             <a class="nav-link" href="/">
                 <span style="font-size: 18px;">Dashboard</span>
 
@@ -18,11 +15,6 @@
         <li class="nav-item">
             <a class="nav-link collapsed" href="/staffs">
                 <span style="font-size: 18px;">Staffs</span>
-            </a>
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="/alumnus">
-                <span>Alumnus</span>
             </a>
         </li><!-- End F.A.Q Page Nav -->
 
