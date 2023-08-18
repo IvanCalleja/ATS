@@ -35,15 +35,11 @@
                 <li>
                     <a class="dropdown-item d-flex align-items-center" href="/admin/profiles">
                         <span class="profile-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
-                                <path d="M3 21v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
+                            &#x1F464;
                         </span>
                         <span>My Profile</span>
                     </a>
                 </li>
-                
                 <style>
                     .profile-icon {
                         display: inline-block;
@@ -51,17 +47,14 @@
                         height: 24px;
                         margin-right: 5px;
                     }
-                </style>                
+                </style>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
                 <li>
                     <a class="dropdown-item d-flex align-items-center logout-button" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         <span class="logout-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
-                                <path d="M9 5l7 7-7 7"></path>
-                                <path d="M16 12H2"></path>
-                            </svg>
+                            &#x1F6AA;
                         </span>
                         <span>Log Out</span>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -69,7 +62,6 @@
                         </form>
                     </a>
                 </li>
-                
                 <style>
                     .logout-button {
                         position: relative;

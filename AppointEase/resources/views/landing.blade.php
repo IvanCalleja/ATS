@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <!-- =======================================================
-  * Template Name: Regna
-  * Updated: Jul 27 2023 with Bootstrap v5.3.1
-  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -157,8 +150,8 @@
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-calendar4-week"></i></a></div>
               <h4 class="title"><a href="">Others</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
+              <p class="description">Explore unique services designed to simplify your experience and meet specialized needs.</p>
+          </div>
           </div>
         </div>
 
