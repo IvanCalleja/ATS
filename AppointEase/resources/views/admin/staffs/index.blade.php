@@ -3,7 +3,16 @@
   <div class="card">
     <div class="card-body">
       <div class="mb-4">
+      <div class="card-body d-flex justify-content-between align-items-end">
         <h2 class="card-title fw-bold" style="font-size: 24px; font-weight: bold;">Staff's List</h2> 
+            <div class="dropdown">
+            <button class="btn btn-primary mb-3" type="button" id="addButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Add
+            </button>
+            <div class="dropdown-menu" aria-labelledby="addButton">
+              <a class="dropdown-item" href="#">Staff</a>
+            </div>
+      </div>
       </div>
       <table class="table table-hover">
         <thead>

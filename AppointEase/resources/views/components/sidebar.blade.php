@@ -2,7 +2,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
 
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="/admin">
                 <span style="font-size: 18px;">Dashboard</span>
 
             </a>
