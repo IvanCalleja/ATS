@@ -43,6 +43,7 @@ Route::get('/admin/profiles', function () {
     return view('admin.profiles.index');
 })->middleware('admin');
 
+
 Route::get('/alumnus', function () {
     return view('admin.alumnus.index');
 });
@@ -70,8 +71,8 @@ Route::get('/client1/srvc', function () {
     return view('clients.srvc.index');
 });
 
-Route::get('/appointment', function () {
-    return view('appointment');
+Route::get('/client1/appointment', function () {
+    return view('clients.appointment.index');
 });
 
 Route::get('/client1/faqs', function () {

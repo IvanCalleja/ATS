@@ -6,7 +6,7 @@
           </a>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
-          <a class="nav-link collapsed" href="#">
+          <a class="nav-link collapsed" href="/client1/appointment">
               <span style="font-size: 18px;">&#x1F4C5; Appointment</span>
           </a>
       </li><!-- End Appointment Page Nav -->
