@@ -8,7 +8,7 @@
             height: 100vh;
         }
 
-        /* Additional responsive styling */
+        
         @media (max-width: 768px) {
             .col-lg-6 {
                 max-width: 100%;
@@ -115,9 +115,27 @@
                                     <div class="col-sm-10">
                                         <select class="form-select" name="services">
                                             <option value="" disabled selected>Select a service</option>
-                                            <option value="service1">Service 1</option>
-                                            <option value="service2">Service 2</option>
-                                            <!-- Add more service options here -->
+                                            <option value="service1">Official Transcript of Records</option>
+                                            <option value="service2">Diploma Renewal</option>
+                                            <option value="service2">Honorable Dismissal </option>
+                                            <option value="service2">Authentication</option>
+                                            <option value="service2">Authentication, Certification & Verification</option>
+                                            <option value="service2">Certification of Grades</option>
+                                            <option value="service1">Certification of Earned Units</option>
+                                            <option value="service2">Certification General Weighted Average</option>
+                                            <option value="service2">Certification as Graduate</option>
+                                            <option value="service2">Certification as Currently Enrolled</option>
+                                            <option value="service2">Certification of Enrollment</option>
+                                            <option value="service2">Certification as Graduating Student</option>
+                                            <option value="service1">Adding/Dropping of Subjects</option>
+                                            <option value="service2">School Grading System</option>
+                                            <option value="service2">PGO Verification Slip </option>
+                                            <option value="service2">Certification of English as a Medium of Instruction</option>
+                                            <option value="service2">Certification as Latin Honor</option>
+                                            <option value="service2">Certification as Completed Academic Requirements</option>
+                                            <option value="service2">Certification as Bonafide Student</option>
+                                            <option value="service2">Certification GSIS Educational Subsidy Program</option>
+                                            <option value="service2">Certification as Has been a Student</option>
                                         </select>
                                     </div>
                                 </div>

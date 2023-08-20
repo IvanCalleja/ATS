@@ -64,7 +64,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-          <h1 style="color: white;">Welcome to <span style="color: white;">Appoint<span style="color: rgb(32, 2, 183);">Ease</span></span></h1>
+            <h1 style="color: white;">Welcome to <span style="color: white;">Appoint<span
+                        style="color: rgb(32, 2, 183);">Ease</span></span></h1>
             <h2 style="font-size: 20px; text-align: center;">
                 Empowering Efficiency Through Precise Appointments
             </h2>
@@ -110,7 +111,7 @@
                     <div class="row about-container">
                         <div class="col-lg-6 content order-lg-1 order-2">
                             <div class="red-card">
-                                <h2 class="title">About AppointEase</h2>
+                                <h2 class="title"> <strong>About AppointEase</strong></h2>
                                 <p>
                                     A system designed to simplify the process, reduce waiting time for clients and
                                     increase user satisfaction and improve efficiency at the registrar's office.
@@ -129,11 +130,12 @@
 
                 <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto text-center"
                     id="yui_3_17_2_1_1692281177234_26">
-                    <h3 class="c-section-desc-heading" id="yui_3_17_2_1_1692281177234_27">Managers and Developers</h3>
+                    <h3 class="c-section-desc-heading" id="yui_3_17_2_1_1692281177234_27"><strong>Managers and Developers</strong></h3>
                     <div class="c-section-desc" id="yui_3_17_2_1_1692281177234_25">
-                        <p dir="ltr" style="text-align: left;" id="yui_3_17_2_1_1692281177234_24">AppointEase is
-                            maintained by the Team Black Clover and the Student's Registar and Records Office.</p>
+                        <p dir="ltr" style="text-align: center;" id="yui_3_17_2_1_1692281177234_24">AppointEase is
+                            maintained by the Team Black Clover and the Student's Registrar and Records Office.</p>
                     </div>
+
                 </div>
             </div>
         </body>
