@@ -28,5 +28,12 @@ class UserSeeder extends Seeder
             'email' => 'staff@gmail.com',
             'password' => Hash::make('111'),
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'Ivan Jefferson Calleja',
+            'role_id' => 3,
+            'email' => 'student@gmail.com',
+            'password' => Hash::make('111'),
+        ]);
     }
 }

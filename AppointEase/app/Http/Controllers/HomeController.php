@@ -28,7 +28,7 @@ class HomeController extends Controller
         $redirects = [
             1 => '/admin',
             2 => '/staffs',
-            3 => '/client',
+            3 => '/client1',
         ];
 
         $redirectTo = isset($redirects[$role_id]) ? $redirects[$role_id] : '/index';

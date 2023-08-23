@@ -31,7 +31,7 @@ class LoginController extends Controller
         $redirectPaths = [
             1 => '/admin',
             2 => '/staffs',
-            3 => '/client',
+            3 => '/client1',
         ];
 
         $role = auth()->user()->role;
