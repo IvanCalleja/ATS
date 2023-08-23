@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             'name' => 'Zarina Kate Lagatic',
             'role_id' => 1,
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('123password'),
+            'password' => Hash::make('123pass'),
         ]);
 
         DB::table('users')->insert([
