@@ -43,11 +43,6 @@ Route::get('/admin/profiles', function () {
     return view('admin.profiles.index');
 })->middleware('admin');
 
-
-Route::get('/alumnus', function () {
-    return view('admin.alumnus.index');
-});
-
 Route::get('/staffs', function () {
     return view('admin.staffs.index');
 });

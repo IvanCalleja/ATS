@@ -16,7 +16,7 @@
             </a>
         </li><!-- End Staffs Page Nav -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#">
+            <a class="nav-link collapsed" href="">
                 <span style="font-size: 18px;">&#x1F393; Register Alumni</span>
             </a>
         </li>

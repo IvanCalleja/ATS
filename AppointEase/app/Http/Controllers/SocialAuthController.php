@@ -21,12 +21,15 @@ class SocialAuthController extends Controller
             $google_user = Socialite::driver('google')->user();
             $user = User::where('email', $google_user->getEmail())->first();
 
+            #dd($google_user->getAvatar());
+
             if (!$user) {
                 // User does not exist in the database
                 $new_user = User::create([
                     'name' => $google_user->getName(),
                     'email' => $google_user->getEmail(),
                     'google_id' => $google_user->getId(),
+                    'profile_image' => $google_user->getAvatar(),
                     'role_id' => 3, // Set the appropriate role ID (e.g., 1 for Admin) based on your role management.
                 ]);
 
