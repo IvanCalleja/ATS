@@ -22,12 +22,12 @@ class SocialAuthController extends Controller
             $user = User::where('email', $google_user->getEmail())->first();
 
             if (!$user) {
-                // User does not exist in the database
+                // If User does not exist in the database
                 $new_user = User::create([
                     'name' => $google_user->getName(),
                     'email' => $google_user->getEmail(),
                     'google_id' => $google_user->getId(),
-                    'role_id' => 3, // Set the appropriate role ID (e.g., 1 for Admin) based on your role management.
+                    'role_id' => 3, // 1-ADMIN, 2-STAFF, 3-CLIENT
                 ]);
 
                 Auth::login($new_user);
@@ -43,5 +43,4 @@ class SocialAuthController extends Controller
         }
     }
 
-    // ... Remaining code ...
 }

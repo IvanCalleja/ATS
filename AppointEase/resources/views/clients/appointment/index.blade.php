@@ -72,13 +72,6 @@
                                             name="appointmentTime">
                                     </div>
                                 </div>
-                                <div class="row mb-3">
-                                    <label for="inputColor" class="col-sm-2 col-form-label">Color Picker</label>
-                                    <div class="col-sm-10">
-                                        <input type="color" class="form-control form-control-color" id="inputColor"
-                                            name="colorPicker" value="#4154f1" title="Choose your color">
-                                    </div>
-                                </div>
                                 <fieldset class="row mb-3">
                                     <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
                                     <div class="col-sm-10">

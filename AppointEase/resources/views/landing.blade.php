@@ -155,7 +155,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                         <div class="box">
                             <div class="icon"><a href=""><i class="bi bi-briefcase"></i></a></div>
-                            <h4 class="title"><a href="">Offcial Transcript of Records</a></h4>
+                            <h4 class="title"><a href="">Official Transcript of Records</a></h4>
                             <p class="description">Official document that provides a detailed record of a student's
                                 academic performance and achievements at an educational institution</p>
                         </div>
@@ -217,8 +217,9 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong>AppointEase</strong>. All Rights Reserved
+                &copy; <span id="copyright-year"></span> <strong>AppointEase.</strong> All Rights Reserved.
             </div>
+            
             <div class="credits">
                 <!--
         All the links in the footer should remain intact.
@@ -245,6 +246,12 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        const yearElement = document.getElementById("copyright-year");
+        yearElement.textContent = currentYear;
+    </script>
 
 </body>
 

@@ -31,10 +31,6 @@ Route::get('/admin', function () {
     return view('admin.index');
 })->middleware('admin');
 
-Route::get('/staffs1', function () {
-    return view('staffs.index');
-})->middleware('staff');
-
 Route::get('/clients', function () {
     return view('admin.clients.index');
 });
@@ -44,21 +40,34 @@ Route::get('/admin/profiles', function () {
 })->middleware('admin');
 
 
-Route::get('/alumnus', function () {
-    return view('admin.alumnus.index');
+Route::get('/admin/alumni', function () {
+    return view('admin.alumni.registration');
 });
 
 Route::get('/staffs', function () {
     return view('admin.staffs.index');
 });
 
+Route::get('/admin/rprts', function () {
+    return view('admin.rprts.index');
+});
+
+Route::get('/staffs1', function () {
+    return view('staffs.index');
+})->middleware('staff');
+
 Route::get('/staffs/clients', function () {
     return view('staffs.clients.index');
 });
 
-Route::get('/admin/rprts', function () {
-    return view('admin.rprts.index');
-});
+Route::get('/staffs/rprts', function () {
+    return view('staffs.rprts.index');
+})->middleware('staff');
+
+Route::get('/staffs/trsctnlst', function () {
+    return view('staffs.trsctnlst.index');
+})->middleware('staff');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
