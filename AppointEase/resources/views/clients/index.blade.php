@@ -29,7 +29,6 @@
                             style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Appointment Form</h4>
                         <form id="appointmentForm">
                             <!-- Personal Information -->
-                            <!-- Personal Information -->
                             <div class="section-container">
                                 <h5 class="section-header" style="margin-top: 0;">Personal Information</h5>
                                 <div class="row mb-3">
@@ -44,7 +43,6 @@
                                         <input type="email" class="form-control" value="{{ auth()->user()->email }}">
                                     </div>
                                 </div>
-                                <!-- Add other personal information fields here -->
                                 <div class="row mb-3">
                                     <label for="inputStudentNumber" class="col-sm-2 col-form-label">Student
                                         Number</label>

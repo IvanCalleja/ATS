@@ -27,6 +27,7 @@ class SocialAuthController extends Controller
                     'name' => $google_user->getName(),
                     'email' => $google_user->getEmail(),
                     'google_id' => $google_user->getId(),
+                    'profile_image' => $google_user->getAvatar(),
                     'role_id' => 3, // 1-ADMIN, 2-STAFF, 3-CLIENT
                 ]);
 

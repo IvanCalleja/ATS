@@ -72,6 +72,9 @@
         <div class="card">
             <h2 style="text-align: center; margin-top: 0;"><strong>Registration Form</strong></h2>
             <form>
+                <div style="text-align: right;">
+                    <button type="button" class="import">Import</button>
+                </div>
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -94,7 +97,6 @@
                 </div>
                 <div style="text-align: center;">
                     <button type="submit">Register</button>
-                    <button type="button" class="import">Import</button>
                 </div>
             </form>
         </div>

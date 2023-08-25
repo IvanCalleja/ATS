@@ -19,7 +19,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->string('google_id')->nullable();
-            $table->foreignId('role_id')->constrained('roles')->default(3); // Assuming 'student' role has id 1
+            $table->string('profile_image')->nullable();
+            $table->foreignId('role_id')->constrained('roles')->default(3); // ADMIN-1, STAFF-2, CLIENT-3 
             $table->rememberToken();
             $table->timestamps();
         });
